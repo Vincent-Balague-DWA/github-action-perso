@@ -6,10 +6,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: just test debug action
+    name: use custom action
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-      - uses: ./
+      - uses: ./actions/
