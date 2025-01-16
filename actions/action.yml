@@ -1,7 +1,7 @@
 ---
 
 name: 'debug-info'
-description: 'debug our environment execution'
+description: 'debug environment execution'
 
 branding:
   icon: chevron-down
